@@ -1,3 +1,158 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  font-family: 'Epilogue';
+  color: #FFFFFF;
 }
+
+body {
+  background-image: url('./images/background.png');
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+header h1 {
+  font-size: 100px;
+  font-weight: 600;
+  line-height: 150px;
+}
+
+.container-planets {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.title-planets {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1140px;
+  height: 98px;
+  border: solid 1px #FFFFFF;
+  border-radius: 17px;
+  margin-bottom: 30px;
+}
+
+.container-planets h2{
+  font-size: 50px;
+  line-height: 75px;
+}
+
+.planet-cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.planet-cards div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.planet-cards div p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.Mercúrio img {
+  width: 41px;
+  height: 31px;
+}
+
+.Vênus img {
+  width: 102px;
+  height: 76px;
+}
+
+.Terra img {
+  width: 106px;
+  height: 79px;
+}
+
+.Marte img {
+  width: 66px;
+  height: 50px;
+}
+
+.Júpiter img {
+  width: 272px;
+  height:204px;
+}
+
+.Saturno img {
+  width: 282.41px;
+  height: 210.9px;
+}
+
+.Urano img {
+  width: 144px;
+  height: 109px;
+}
+
+.Netuno img {
+  width: 144px;
+  height:107px;
+}
+
+.container-missions {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-missions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1140px;
+  height: 98px;
+  border: solid 1px #FFFFFF;
+  border-radius: 17px;
+  margin-bottom: 40px;
+}
+
+.title-missions h2 {
+  font-size: 50px;
+  line-height: 75px;
+}
+
+.missions-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 1200px;
+}
+
+.missions-cards div {
+  width: 354px;
+  height: 281px;
+  margin: 0 18px 35px 18px;
+  border-radius: 17px;
+  border: solid 1px #FFFFFF;
+}
+
+.missions-cards div p {
+  margin-left: 25px;
+  font-size: 19px;
+}
+
+.line {
+  border: solid 1px #FFFFFF;
+  margin-bottom: 25px;
+}
+
+#mission-name {
+  font-size: 29px;
+  font-weight: 700;
+  line-height: 42px;
+}
+

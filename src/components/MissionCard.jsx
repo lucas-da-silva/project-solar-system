@@ -7,11 +7,11 @@ class MissionCard extends Component {
 
     return (
       <div data-testid="mission-card">
-        <p data-testid="mission-name">{name}</p>
+        <p id="mission-name" data-testid="mission-name">{name}</p>
+        <hr className="line" />
         <p data-testid="mission-year">{year}</p>
         <p data-testid="mission-country">{country}</p>
         <p data-testid="mission-destination">{destination}</p>
-
       </div>
     );
   }
@@ -19,7 +19,7 @@ class MissionCard extends Component {
 
 MissionCard.propTypes = {
   name: PropTypes.string.isRequired,
-  year: PropTypes.number.isRequired,
+  year: PropTypes.string.isRequired,
   country: PropTypes.string.isRequired,
   destination: PropTypes.string.isRequired,
 };
