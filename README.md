@@ -10,7 +10,7 @@ Primeiro projeto utilizando React! Foi um projeto simples de fazer, basicamente,
 1. No terminal, em um diretório de sua escolha, clonar o repositório:
 
 ```
-git clone git@github.com:lucas-da-silva/trybe-shopping-cart.git
+git clone git@github.com:lucas-da-silva/solar-system.git
 ```
 
 2. Dentro do repositório do projeto, instalar as dependências:
