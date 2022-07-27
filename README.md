@@ -5,8 +5,6 @@ Primeiro projeto utilizando React! Foi um projeto simples de fazer, basicamente,
 
 ---
 
-> Caso prefira, vizualizar o projeto no meu [portfólio}().
-
 ## Instalação do projeto localmente
 
 1. No terminal, em um diretório de sua escolha, clonar o repositório:
