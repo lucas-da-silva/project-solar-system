@@ -1,4 +1,4 @@
-# Bem vindo ao projeto Solar System!
+# Bem vindo ao repositório do projeto Solar System!
 
 ## Comentários
 Primeiro projeto utilizando React! Foi um projeto simples de fazer, basicamente, criar um site utilizando diversos componentes React. Creio que ficou bonito, conseguir aplicar um pouco de CSS.
